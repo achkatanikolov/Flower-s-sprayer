@@ -8,6 +8,8 @@ observation = mgr.weather_at_place('Rome, IT')
 
 w = observation.weather
 m = w.temperature('celsius')
+z = w.wind()
 
 print(w)
 print(m)
+print(z)
